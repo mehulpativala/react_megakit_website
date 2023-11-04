@@ -12,6 +12,10 @@ import CountUp from 'react-countup';
 import Header from './pages/header';
 import Footer from './pages/footer';
 import Ourcompany from './pages/ourcompany';
+import blog from './image/blog-1.jpg'
+import blog2 from './image/blog-2.jpg'
+import blog3 from './image/blog-3.jpg'
+
 import {
   BrowserRouter as Router,
   Switch,
@@ -304,7 +308,7 @@ function BasicExample() {
           <Container className='w-1140'>
             <div class="card-group">
               <div class="card bg-transparent border-0">
-                <img src="https://demo.themefisher.com/megakit/images/blog/1.jpg" class="img-fluid " alt="" />
+                <img src={blog} class="img-fluid " alt="" />
                 <div class="card-body">
                   <div class="blog-item-meta">
                     <a href="design" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
@@ -317,7 +321,7 @@ function BasicExample() {
                 </div>
               </div>
               <div class="card  bg-transparent border-0">
-                <img src="https://demo.themefisher.com/megakit/images/blog/2.jpg" class="img-fluid " alt="" />
+                <img src={blog2} class="img-fluid " alt="" />
                 <div class="card-body mt-2">
                   <div class="blog-item-meta">
                     <a href="design" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
@@ -330,7 +334,7 @@ function BasicExample() {
                 </div>
               </div>
               <div class="card bg-transparent border-0">
-                <img src="https://demo.themefisher.com/megakit/images/blog/3.jpg" class="img-fluid" alt="" />
+                <img src={blog3} class="img-fluid" alt="" />
                 <div class="card-body">
                   <div class="blog-item-meta">
                     <a href="design" class="text-white-50">Design<span class="ml-2 mr-2">/</span></a>
