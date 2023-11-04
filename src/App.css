@@ -149,7 +149,7 @@ img {
 }
 
 .slider {
-    background: url(https://demo.themefisher.com/megakit/images/bg/home-1.jpg) no-repeat;
+    background: url(../src/image/home-1.jpg) no-repeat;
     background-size: cover;
     background-position: 10% 0%;
     padding: 400px 0;
@@ -182,7 +182,7 @@ img {
 }
 
 .w-50 {
-    background-image: url(https://demo.themefisher.com/megakit/images/about/home-8.jpg) !important;
+    background-image: url(../src/image/home-8.jpg) !important;
     min-height: 650px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -283,7 +283,7 @@ h3 {
 
 .web-page {
     position: relative;
-    background-image: url(https://demo.themefisher.com/megakit/images/bg/home-3.jpg);
+    background-image: url(../src/image/home-3.jpg);
     background-attachment: fixed;
     background-size: cover;
     padding: 110px 0px;
@@ -331,7 +331,7 @@ h3 {
 .parallex {
     position: relative;
     padding-bottom: 150px;
-    background-image: url(https://demo.themefisher.com/megakit/images/bg/home-5.jpg);
+    background-image: url(../src/image/home-5.jpg);
     background-size: cover;
 }
 
@@ -567,21 +567,7 @@ input[type="text"] {
 }
 
 
-/* .scroll-to-top {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    z-index: 999;
-    height: 40px;
-    width: 40px;
-    background: #f75757;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 43px;
-    color: white;
-    cursor: pointer;
-    transition: 0.3s;
-} */
+
 .slick {
     /* width: 570%; */
     padding: 50px 30px;
@@ -620,7 +606,7 @@ input[type="text"] {
 }
 
 .bg-1 {
-    background: url(https://demo.themefisher.com/megakit/images/bg/home-2.jpg);
+    background: url(../src//image/home-2.jpg);
     background-size: cover;
     width: 100%;
     background-position: center;
@@ -719,7 +705,7 @@ input[type="text"] {
 }
 
 .bg-counter {
-    background-image: url(https://demo.themefisher.com/megakit/images/bg/counter.jpg);
+    background-image: url(../src/image/counter.jpg);
     position: relative;
     background-position: center;
     background-size: cover;
@@ -822,7 +808,7 @@ p {
 }
 
 .hero-img {
-    background: url(https://demo.themefisher.com/megakit/images/bg/home-5.jpg);
+    background: url(../src/image/home-5.jpg);
     position: absolute;
     content: "";
     background-size: cover;
@@ -902,7 +888,7 @@ strong {
 }
 
 .cta-block {
-    background-image: url(https://demo.themefisher.com/megakit/images/bg/home-3.jpg);
+    background-image: url(../src/image/home-3.jpg);
     position: relative;
 }
 

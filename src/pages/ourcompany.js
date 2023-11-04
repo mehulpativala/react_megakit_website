@@ -8,6 +8,14 @@ import { FaFacebookF, FaInstagram, FaTwitter } from 'react-icons/fa';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import team1 from '../image/team-1.jpg';
+import team2 from '../image/team-2.jpg';
+import team3 from '../image/team-3.jpg';
+import team4 from '../image/team-4.jpg';
+import team5 from '../image/team-5.jpg';
+import team6 from '../image/team-6.jpg';
+
+
 
 
 const Ourcompany = () => {
@@ -60,7 +68,7 @@ const Ourcompany = () => {
                         </div>
                         <div className="col-6">
                             <div className="about-item-img">
-                                <img src="https://demo.themefisher.com/megakit/images/about/home-7.jpg" alt="" className='img-fluid-2' />
+                                <img src='./image/home-7.jpg' alt="" className='img-fluid-2' />
                             </div>
                         </div>
                     </div>
@@ -147,7 +155,7 @@ const Ourcompany = () => {
                         <div className="col-4">
                             <div className="team-item-wrap mb-5">
                                 <div className="team-item position-relative">
-                                    <img src="https://demo.themefisher.com/megakit/images/team/team-1.jpg" alt="" className='img-fluid-2 w-100' />
+                                    <img src={team1} alt="" className='img-fluid-2 w-100' />
                                     <div class="team-img-hover">
                                         <ul class="team-social list-inline-2">
                                             <li class="list-inline-item">
@@ -175,7 +183,7 @@ const Ourcompany = () => {
                         <div className="col-4">
                             <div className="team-item-wrap position-relative mb-5">
                                 <div className="team-item position-relative">
-                                    <img src="https://demo.themefisher.com/megakit/images/team/team-2.jpg" alt="" className='img-fluid-2 w-100' />
+                                    <img src={team2} alt="" className='img-fluid-2 w-100' />
                                     <div class="team-img-hover">
                                         <ul class="team-social list-inline-2">
                                             <li class="list-inline-item">
@@ -204,7 +212,7 @@ const Ourcompany = () => {
                         <div className="col-4">
                             <div className="team-item-wrap mb-5">
                                 <div className="team-item position-relative">
-                                    <img src="https://demo.themefisher.com/megakit/images/team/team-3.jpg" alt="" className='img-fluid-2 w-100' />
+                                    <img src={team3} alt="" className='img-fluid-2 w-100' />
                                     <div class="team-img-hover">
                                         <ul class="team-social list-inline-2">
                                             <li class="list-inline-item">
@@ -233,7 +241,7 @@ const Ourcompany = () => {
                         <div className="col-4">
                             <div className="team-item-wrap mb-5">
                                 <div className="team-item position-relative">
-                                    <img src="https://demo.themefisher.com/megakit/images/team/team-4.jpg" alt="" className='img-fluid-2 w-100' />
+                                    <img src={team4} alt="" className='img-fluid-2 w-100' />
                                     <div class="team-img-hover">
                                         <ul class="team-social list-inline-2">
                                             <li class="list-inline-item">
@@ -261,7 +269,7 @@ const Ourcompany = () => {
                         <div className="col-4">
                             <div className="team-item-wrap mb-5">
                                 <div className="team-item position-relative">
-                                    <img src="https://demo.themefisher.com/megakit/images/team/team-6.jpg" alt="" className='img-fluid-2 w-100' />
+                                    <img src={team5} alt="" className='img-fluid-2 w-100' />
                                     <div class="team-img-hover">
                                         <ul class="team-social list-inline-2">
                                             <li class="list-inline-item">
@@ -289,7 +297,7 @@ const Ourcompany = () => {
                         <div className="col-4">
                             <div className="team-item-wrap mb-5 ">
                                 <div className="team-item position-relative">
-                                    <img src="https://demo.themefisher.com/megakit/images/team/team-5.jpg" alt="" className='img-fluid-2 w-100' />
+                                    <img src={team6} alt="" className='img-fluid-2 w-100' />
                                     <div class="team-img-hover">
                                         <ul class="team-social list-inline-2">
                                             <li class="list-inline-item">

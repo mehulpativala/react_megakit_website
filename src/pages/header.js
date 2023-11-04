@@ -49,7 +49,7 @@ const Header = () => {
                 </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href="/services" className='text-light text-uppercase hover'>Services</Nav.Link>
-              <Nav.Link href="/Portfolio" className='text-light text-uppercase hover'>Portfolio</Nav.Link>
+              <Nav.Link href="/" className='text-light text-uppercase hover'>Portfolio</Nav.Link>
               <NavDropdown title="BLOG" id="basic-nav-dropdown" className='hover'>
                 <NavDropdown.Item href="/" className='text-uppercase hover1'>Blog Grid</NavDropdown.Item>
                 <NavDropdown.Item href="/" className='text-uppercase hover1'>blog with sidebar</NavDropdown.Item>
